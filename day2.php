@@ -5,11 +5,6 @@ $day->run();
 
 class day2
 {
-    private $blockers = [];
-    private $openRoutes = [];
-    private $route = [];
-    private $routes = [];
-
     function run()
     {
         $file = file_get_contents('input/day2.txt');
